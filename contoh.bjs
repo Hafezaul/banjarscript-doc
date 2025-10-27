@@ -1,0 +1,7 @@
+// menampilkan hello world
+tampaiakan("hello world")
+
+wadah umur = 17;
+wadah nama = "Faris Iskandar Hafidz";
+
+ubah nama1 = "mememe"
