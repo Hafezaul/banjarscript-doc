@@ -16,3 +16,31 @@ wadah variabelTiga = "Versi ketiga dari variabel";
 tampaiakan(variabelSatu);
 tampaiakan(variabelDua);
 tampaiakan(variabelTiga);
+
+
+// function 
+fungsi kali(a, b){
+    hasilKali = a * b;
+    tampaiakan("Hasil dari ini = " + hasilKali);
+}
+
+kali(2, 3);
+kali(3, 9);
+
+// return 
+fungsi tambah(c, d){
+    balikan c + d;
+};
+
+wadah meme = tambah(4, 9)
+tampaiakan(meme);
+
+// if condition 
+
+wadah umur = 10; 
+
+mun (umur > 15) {
+    tampaiakan("Umur anda sudah sesuai");
+} nanglain { 
+    tampaiakan("Masih bocil amat");
+}; 
