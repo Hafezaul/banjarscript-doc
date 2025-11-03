@@ -1,7 +1,18 @@
 // menampilkan hello world
 tampaiakan("hello world")
 
-wadah umur = 17;
-wadah nama = "Faris Iskandar Hafidz";
+// Membuat variabel kosntanta
+konstanta namaAkuh = "Faris Iskandar Hafidz"; 
+// value pada namaAkuh tidak akan berubah. 
+// namaAkuh = "Enggi Aulia Yudhiex";
+tampaiakan(namaAkuh);
 
-ubah nama1 = "mememe"
+// Membuat variabel biasa 
+
+ubah variabelSatu = "Ini contoh saja"; 
+variabel variabelDua = "Contoh kedua"; 
+wadah variabelTiga = "Versi ketiga dari variabel"; 
+
+tampaiakan(variabelSatu);
+tampaiakan(variabelDua);
+tampaiakan(variabelTiga);
