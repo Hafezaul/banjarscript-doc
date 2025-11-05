@@ -37,10 +37,10 @@ tampaiakan(meme);
 
 // if condition 
 
-wadah umur = 10; 
+wadah umur = 17; 
 
-mun (umur > 15) {
-    tampaiakan("Umur anda sudah sesuai");
-} nanglain { 
-    tampaiakan("Masih bocil amat");
-}; 
+mun (umur > 18) { 
+    tampaiakan("Umur anda sudah dewasa");
+} nanglain {
+    tampaiakan("Masih bocil yeee");
+}
