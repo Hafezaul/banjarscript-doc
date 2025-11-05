@@ -44,3 +44,19 @@ mun (umur > 18) {
 } nanglain {
     tampaiakan("Masih bocil yeee");
 }
+
+// looping 
+
+// for looping
+gasan (wadah i = 1; i <= 5; i++) {
+  tampaiakan("Perulangan ke-" + i);
+}
+
+// while
+
+wadah i = 1;
+munkada (i <= 5) {
+  tampaiakan("Looping while ke-" + i);
+  i++;
+}
+

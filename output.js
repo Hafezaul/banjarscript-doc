@@ -44,3 +44,19 @@ if (umur > 18) {
 } else {
     console.log("Masih bocil yeee");;;
 }
+
+// looping 
+
+// for looping
+for (let i = 1; i <= 5; i++) {
+  console.log("Perulangan ke-" + i);
+}
+
+// while
+
+let i = 1;
+while (i <= 5) {
+  console.log("Looping while ke-" + i);
+  i++;
+}
+
