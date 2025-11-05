@@ -6,6 +6,13 @@ let code = fs.readFileSync(process.argv[2], "utf8");
 code = code.replace(/tampaiakan/g, "console.log");
 code = code.replace(/wadah/g, "let");
 code = code.replace(/ubah/g, "let");
+code = code.replace(/variabel/g, "let");
+code = code.replace(/mun/g, "if");
+code = code.replace(/nanglain/g, "else");
+code = code.replace(/lain/g, "else");
+code = code.replace(/fungsi/g, "function")
+code = code.replace(/balikan/g, "return")
+code = code.replace(/konstanta/g, "const")
 
 // tambahkan titik koma opsional
 code = code.replace(/"\)/g, '");');
