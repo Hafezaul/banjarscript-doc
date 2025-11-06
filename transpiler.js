@@ -20,8 +20,11 @@ code = code.replace(/selama/g, "while");
 code = code.replace(/bujur/g, "true");
 code = code.replace(/benar/g, "true");
 code = code.replace(/salah/g, "false")
+code = code.replace(/dan/g, "&"); 
+code = code.replace(/atau/g, "||");
+code = code.replace(/bukan/g, "!");
+
 // tambahkan titik koma opsional
-code = code.replace(/"\)/g, '");');
 code = code.replace(/"\)/g, '");');
 
 fs.writeFileSync("output.js", code);

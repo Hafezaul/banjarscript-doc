@@ -104,3 +104,25 @@ tampaiakan(a >= 10);  // true
 
 // Lebih kecil atau sama dengan (<=)
 tampaiakan(a <= 5);   // false
+
+// Operator logika 
+
+wadah usia = 18;
+wadah izin = true;
+
+// AND
+mun (usia >= 18 && izin dan bujur) {
+  tampaiakan("Boleh masuk event");
+}
+
+// OR
+mun (usia >= 18 || izin atau bujur) {
+  tampaiakan("Minimal salah satu syarat terpenuhi");
+}
+
+// NOT
+/
+/* mun (bukan izin) {
+  tampaiakan("Tidak punya izin");
+}
+*/

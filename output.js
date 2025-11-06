@@ -1,5 +1,5 @@
 // menampilkan hello world
-console.log("hello world");;
+console.log("hello world");
 
 // Membuat let kosntanta
 const namaAkuh = "Faris Iskandar Hafidz"; 
@@ -40,9 +40,9 @@ console.log(meme);
 let umur = 17; 
 
 if (umur > 18) { 
-    console.log("Umur anda sudah dewasa");;;
+    console.log("Umur anda sudah dewasa");;
 } else {
-    console.log("Masih bocil yeee");;;
+    console.log("Masih bocil yeee");;
 }
 
 // looping 
@@ -87,11 +87,11 @@ console.log(a == b);   // false
 // Tidak sama dengan (!=)
 console.log(a != b);   // true
 
-// Sama dengan dan tipe datanya juga sama (===)
+// Sama dengan & tipe datanya juga sama (===)
 console.log(a === 10); // true
 
-// Tidak sama dengan dan tipe datanya juga berbeda (!==)
-console.log(a !== "10");;; // true
+// Tidak sama dengan & tipe datanya juga berbeda (!==)
+console.log(a !== "10");; // true
 
 // Lebih besar dari (>)
 console.log(a > b);    // true
@@ -99,8 +99,28 @@ console.log(a > b);    // true
 // Lebih kecil dari (<)
 console.log(a < b);    // false
 
-// Lebih besar atau sama dengan (>=)
+// Lebih besar || sama dengan (>=)
 console.log(a >= 10);  // true
 
-// Lebih kecil atau sama dengan (<=)
+// Lebih kecil || sama dengan (<=)
 console.log(a <= 5);   // false
+
+// Operator logika 
+
+let usia = 18;
+let izin = true;
+
+// AND
+if (usia >= 18 && izin & true) {
+  console.log("Boleh masuk event");;
+}
+
+// OR
+if (usia >= 18 || izin || true) {
+  console.log("Minimal false satu syarat terpenuhi");;
+}
+
+// NOT
+if (!izin) {
+  console.log("Tidak punya izin");;
+}
