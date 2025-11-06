@@ -60,3 +60,47 @@ while (i <= 5) {
   i++;
 }
 
+
+// operator aritmatika 
+
+let angkaPertama = 10; 
+let angkaKedua = 2; 
+
+const penjumlahan = angkaPertama + angkaKedua; 
+const pengurangan = angkaPertama - angkaKedua; 
+const perkalian = angkaPertama * angkaKedua; 
+const pembagian = angkaPertama / angkaKedua;
+
+console.log(penjumlahan);
+console.log(pengurangan); 
+console.log(perkalian); 
+console.log(pembagian); 
+
+// operator pembanding
+
+let a = 10;
+let b = 5;
+
+// Sama dengan (==)
+console.log(a == b);   // false
+
+// Tidak sama dengan (!=)
+console.log(a != b);   // true
+
+// Sama dengan dan tipe datanya juga sama (===)
+console.log(a === 10); // true
+
+// Tidak sama dengan dan tipe datanya juga berbeda (!==)
+console.log(a !== "10");;; // true
+
+// Lebih besar dari (>)
+console.log(a > b);    // true
+
+// Lebih kecil dari (<)
+console.log(a < b);    // false
+
+// Lebih besar atau sama dengan (>=)
+console.log(a >= 10);  // true
+
+// Lebih kecil atau sama dengan (<=)
+console.log(a <= 5);   // false

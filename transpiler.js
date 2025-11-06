@@ -17,8 +17,9 @@ code = code.replace(/gasan/g, "for");
 code = code.replace(/\bmunkada\b/g, "while");
 code = code.replace(/selagi/g, "while");
 code = code.replace(/selama/g, "while");
-
-
+code = code.replace(/bujur/g, "true");
+code = code.replace(/benar/g, "true");
+code = code.replace(/salah/g, "false")
 // tambahkan titik koma opsional
 code = code.replace(/"\)/g, '");');
 code = code.replace(/"\)/g, '");');

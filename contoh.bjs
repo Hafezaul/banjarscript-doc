@@ -60,3 +60,47 @@ munkada (i <= 5) {
   i++;
 }
 
+
+// operator aritmatika 
+
+wadah angkaPertama = 10; 
+wadah angkaKedua = 2; 
+
+konstanta penjumlahan = angkaPertama + angkaKedua; 
+konstanta pengurangan = angkaPertama - angkaKedua; 
+konstanta perkalian = angkaPertama * angkaKedua; 
+konstanta pembagian = angkaPertama / angkaKedua;
+
+tampaiakan(penjumlahan);
+tampaiakan(pengurangan); 
+tampaiakan(perkalian); 
+tampaiakan(pembagian); 
+
+// operator pembanding
+
+wadah a = 10;
+wadah b = 5;
+
+// Sama dengan (==)
+tampaiakan(a == b);   // false
+
+// Tidak sama dengan (!=)
+tampaiakan(a != b);   // true
+
+// Sama dengan dan tipe datanya juga sama (===)
+tampaiakan(a === 10); // true
+
+// Tidak sama dengan dan tipe datanya juga berbeda (!==)
+tampaiakan(a !== "10"); // true
+
+// Lebih besar dari (>)
+tampaiakan(a > b);    // true
+
+// Lebih kecil dari (<)
+tampaiakan(a < b);    // false
+
+// Lebih besar atau sama dengan (>=)
+tampaiakan(a >= 10);  // true
+
+// Lebih kecil atau sama dengan (<=)
+tampaiakan(a <= 5);   // false
